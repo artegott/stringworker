@@ -16,7 +16,11 @@ public class StringApp {
         System.out.println(string == string_2);
 
         int i = 10;
-        int j;
+        int j = -1;
+
+        Object haha = null;
+
+        System.out.println(haha);
 
         System.out.print("Input string for showing our operations with it: ");
         StringWorker stringWorker = new StringWorker();
