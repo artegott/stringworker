@@ -11,7 +11,7 @@ public class StringWorker implements StringOperations {
      * @param str - the string for inverting
      * @return new inverted string
      */
-    public String reverse(String str) {
+    public String reverse(final String str) {
         return new StringBuilder(str).reverse().toString();
     }
 
@@ -21,7 +21,7 @@ public class StringWorker implements StringOperations {
      * @param str - the string for transform
      * @return new string in uppercase
      */
-    public String toUpper(String str) {
+    public String toUpper(final String str) {
         return str.toUpperCase();
     }
 
@@ -31,7 +31,7 @@ public class StringWorker implements StringOperations {
      * @param str - the string for transform
      * @return new string in lowercase
      */
-    public String toLower(String str) {
+    public String toLower(final String str) {
         return str.toLowerCase();
     }
 
@@ -41,7 +41,7 @@ public class StringWorker implements StringOperations {
      * @param str - the string for transform
      * @return i don't know, however it looks good
      */
-    public String snake(String str) {
+    public String snake(final String str) {
         char[] chars = str.toCharArray();
 
         for (int i = 0; i < chars.length; i++) {
