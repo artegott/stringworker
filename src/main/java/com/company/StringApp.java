@@ -1,5 +1,6 @@
 package com.company;
 
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,6 +10,14 @@ import java.io.InputStreamReader;
  */
 public class StringApp {
     public static void main(final String[] args) {
+        String string = "artem";
+        String string_2 = "yura";
+
+        System.out.println(string == string_2);
+
+        int i = 10;
+        int j;
+
         System.out.print("Input string for showing our operations with it: ");
         StringWorker stringWorker = new StringWorker();
         String inputString = readConsoleLine();
